@@ -8,19 +8,36 @@
 </head>
 <body>
 
-    <!-- Aula_1, exemplo da comunicação do html com JQuery. -->
-    <p id="teste"></p>
+    <!-- Aula_2, exemplo da comunicação do html com JQuery. -->
+    <!-- <p id="teste"></p>
 
     <script>
         $("#teste").html("teste");
-    </script>
+    </script> -->
+
+
+    
+    <!-- aula_3, seletores -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Dolorem eaque blanditiis ea. A harum veritatis magnam
+    </p>
+
+    <p id="teste">Isso é um parágrafo de teste</p>
+
+    <p class="p-dark">Outro parágrafo</p>
+
+    <div class="p-dark">Texto dentro de uma div</div>
+
+    <script src="js/jquery-3.6.0.js"></script>
 
     <script>
         $(document).ready(function () {
-
+            $('p').html('Inserido com JQuery');
         });
     </script>
+
+
  
-    <script src="js/jquery-3.6.0.js"></script>
+   
 </body>
 </html>
